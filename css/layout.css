@@ -207,8 +207,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 135px;
+   height: 135px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -280,6 +280,37 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+
+/* ------------------------------------------------------------------ */
+/* x.  future-project Section
+/* ------------------------------------------------------------------ */
+
+#future-project {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#future-project a, #future-project a:visited  { color: #fff; }
+#future-project a:hover, #future-project a:focus { color: #11ABB0; }
+
+#future-project h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#future-project p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#future-project .logo-pic {
+   position: relative;
+   width: 100px;
+   height: 100px;
+   border-radius: 100%;
+}
+#future-project .main-col { padding-right: 5%; }
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -630,7 +661,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -654,7 +685,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -851,6 +882,7 @@ call-to-action .button {
    font-size: 15px;
    line-height: 24px;
    width: 65%;
+   resize: none;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -1003,4 +1035,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
